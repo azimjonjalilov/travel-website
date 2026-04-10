@@ -31,3 +31,63 @@ input {
   outline: none;
   background: transparent;
 }
+
+/* testomonial start */
+.testimonial-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #FFFFFF; 
+}
+
+.testimonial-header h1 {
+  font-size: 32px;
+  color: #1E1E1E;
+}
+
+.testimonial-header span {
+  color: #FF7629;
+  display: block; 
+}
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.testimonial-card {
+  max-width: 500px;
+}
+
+.testimonial-image {
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.testimonial-name {
+  color: #FF7629;
+  margin-bottom: 15px;
+}
+
+.testimonial-role {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.testimonial-nav-btn {
+  background-color: #FF7629;
+  color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* testomonial end */
