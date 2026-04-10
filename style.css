@@ -31,3 +31,82 @@ input {
   outline: none;
   background: transparent;
 }
+
+/* posts section start */
+.posts {
+  width: 100%;
+  padding: 100px 100px 173px;
+}
+
+.posts-title {
+  font-family: var(--montserrat);
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 1.06;
+  text-align: center;
+  color: #1e1e1e;
+
+  span {
+    color: #ff7629;
+  }
+}
+
+.posts-container {
+  margin-top: 110px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+}
+
+.post {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    overflow: hidden;
+    border-radius: 15px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: all 0.3s ease;
+    }
+
+    &:hover img {
+      transform: scale(1.1);
+    }
+  }
+
+  .post-date {
+    margin-top: 30px;
+    font-family: var(--montserrat);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.06;
+    color: #1e1e1e;
+  }
+
+  .post-title {
+    margin-top: 15px;
+    font-family: var(--montserrat);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.06;
+    color: #ff7629;
+  }
+
+  .post-desc {
+    margin-top: 20px;
+    font-family: var(--calibri);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.21;
+    color: #1e1e1e;
+  }
+}
+/* posts section end */
