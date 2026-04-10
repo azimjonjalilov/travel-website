@@ -32,6 +32,59 @@ input {
   background: transparent;
 }
 
+/* Section */
+.categories {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* Title */
+.categories h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.categories h2 span {
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jamlama {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.jamlama div {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.jamlama img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Hover effekt */
+.jamlama div:hover {
+  transform: scale(1.05);
+}
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1.2fr;
