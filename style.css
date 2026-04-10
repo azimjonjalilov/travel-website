@@ -32,6 +32,35 @@ input {
   background: transparent;
 }
 
+.facilities {
+  padding: 80px 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.wrap-card {
+  display: flex;
+  gap: 100px;
+  margin-top: 52px;
+
+
+}
+
+.tag {
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 50px;
+
+
+}
+
+h1>span {
+  color: rgba(255, 118, 41, 1);
+  ;
+}
+.card{
+  width: 266px;
+  height: 308px;
 /* Section */
 .categories {
     width: 90%;
@@ -175,6 +204,38 @@ input {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-left: 180px;
+  margin-top: 40px;
+}
+.card img {
+  width: 105px;
+  height: 105px;
+  background-color: rgba(255, 118, 41, 1);
+  border-radius: 10px;
+  margin-bottom: 44px;
+
+}
+.card h5{
+  width: 197px;
+  height: 70px;
+  font-weight: 600;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.card p{
+  width: 266px;
+  height: 72px;
+  font-size: 24px;
+  font-weight: 400;
+}
+button{
+  width: 260px;
+  height: 55px;
+  background-color: rgba(255, 118, 41, 1);
+  margin-top: 180px;
+  color: white;
+  font-size: 26px;
+  border-radius: 60px;
   text-align: center;
 
   .hero-title {
